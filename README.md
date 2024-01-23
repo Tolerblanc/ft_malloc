@@ -7,7 +7,6 @@
 - 표준 C 라이브러리의 동적 메모리 할당 및 관리 이해하고 구현하기
 - 운영체제 복습 (Segmentation, Paging, Defragmentation)
 - _thread-safe_ 한 라이브러리 설계 및 구현
-- 
 
 ## Documents
 
