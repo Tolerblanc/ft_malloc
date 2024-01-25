@@ -56,9 +56,10 @@ re:
 	@$(MAKE) fclean
 	@$(MAKE) all
 
-test: $(NAME)
-    @export DYLD_LIBRARY_PATH=$(PWD):$$DYLD_LIBRARY_PATH; \
-    $(CC) $(CFLAGS) -o test test.c -L. -lft_malloc -I./include; \
-    ./test
-
 .PHONY: all clean fclean re test
+
+test: $(NAME) test.c
+	@echo building test && \
+    export DYLD_LIBRARY_PATH=$(PWD):$$DYLD_LIBRARY_PATH && \
+    $(CC) $(CFLAGS) -o test test.c -L. -lft_malloc -I./include && \
+    ./test
