@@ -13,7 +13,8 @@
 - [서브젝트 번역본](docs/subject.ko.md)
 - [man mmap, man munmap](docs/mmap,%20munmap.md) 
 - [man getpagesize, man getrlimit](docs/getpagesize,%20getrlimit.md)
-- [man malloc (추가 예정)]()
+- [man malloc, realloc, free](docs/malloc,%20realloc,%20free.md)
+- [glibc malloc internals]()
 - [동적 라이브러리와 정적 라이브러리 (추가 예정)]()
 - [공룡책 CH9.Main Memory 정리 (추가 예정)]()
 - [공룡책 CH10.Virtual Memory 정리 (추가 예정)]()
@@ -25,4 +26,5 @@
 ## Reference
 
 - <https://copyprogramming.com/howto/my-malloc-in-c-using-mmap>
+- <https://sourceware.org/glibc/wiki/MallocInternals>
 - Malloc Lab
